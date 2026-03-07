@@ -8,7 +8,7 @@ def test_playwright_basics(playwright):
     page = context.new_page()
     
     # Navigate to the desired URL
-    page.goto("https://www.google.com")
+    page.goto("https://www.youtube.com")
     
     # Perform actions on the page (e.g., click, fill forms, etc.)
     # Example: Click on a link with text "More information"
